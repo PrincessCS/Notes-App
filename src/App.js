@@ -22,17 +22,7 @@ function App(){
     date: "15/04/24"
   },
 
-  {
-    id:nanoid(),
-    text:"this is my third note",
-    date: "15/04/24"
-  },
-
-  {
-    id:nanoid(),
-    text:"this is my fourth note",
-    date: "15/04/24"
-  },
+ 
 
 ]);
 
