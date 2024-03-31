@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin:0;
+  background-image: url(https://journey.cloud/content_assets/journal/five-year-diary.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+.header{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 2.0rem;
+  margin-bottom: 1.5rem;
+}
+
+.search{
+  background-color: #fff;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left:25%;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1.2rem;
+  width:50%;
+}
+
+.search input {
+  border: none;
+  background-color:#fff;
+  color: #000;
+  padding-left: 10px;
+  width:50%;
+}
+
+.search-icon{
+  color:yellow;
+  
+}
+
+.fonts{
+ 
+  background-color:#fff;
+  opacity: 0.7;
+  height:50px;
+  border-radius: 10px;
+  margin-top: 5rem;
+  
+}
+
+.fonts p{
+  padding-left: 2.1rem;
+  padding-top: 0.2rem;
+
+ 
+}
+
+.font-select{
+margin-top: 0.3rem;
+ margin-left:2rem;
+  border-radius: 8px;
+}
+
+::placeholder {
+  color:#000;
+  opacity: 1; 
+}
+
+.search input:focus{
+  outline: none;
+}
+.container{
+  max-width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.notes--list{
+   max-width: 500px;
+   margin: 0 auto;
+   margin-top: 3rem;
+   display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax (250px, 1fr));
+} 
+
+.new-note{
+  
+  background-color: #fff;
+  opacity: 0.7;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  padding:1rem;
+  min-height: 150px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+textarea{
+  background-color:#fff;
+  border: none;
+  resize: none;
+}
+
+textarea:focus{
+  outline: none;
+}
+
+.save-btn{
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px 5px 10px;
+}
+
+.save-btn:hover{
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.notes{
+  background-color: #d3d3d3;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding:1rem;
+  min-height: 150px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap; 
+
+}
+
+.edit-text{
+  background-color: #fff;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.edit-icon{
+  cursor: pointer;
+  margin-left: 1rem;
+}
+
+.delete-icon{
+  cursor: pointer;
+
+}
+
